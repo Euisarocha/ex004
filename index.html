@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h1> Clínica Bella</h1>
+
+<form>
+
+    <!--Nome-->
+    <p>
+    <label for="Nome">Nome:</label>
+    <input type="text" name="Nome" id="Nome" required>
+    </p>
+  
+    <!--Data de nascimento-->
+    <p>
+    <label for="Data de nascimento"> Data de nascimento:</label>
+    <input type="date" name="Data" id="Data" required>
+    </p>
+
+
+    <!--Exames-->
+  <p>
+    <label for="Exames"> Exames:</label>
+    <select name="Exames" id="Exames" required>
+        <option value="Selecione"></option>
+        <option value="Ressonância">Ressonância</option>
+        <option value="Tomografia">Tomografia</option>
+        </select>
+    </p>
+
+   
+    <!--Enviar-->
+     <div class="form-ac"></div>
+    <button type="submit"> Enviar</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
